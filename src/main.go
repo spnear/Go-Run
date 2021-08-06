@@ -98,4 +98,29 @@ func main() {
 	value1, value2 := double_return(2, 3)
 	//value1, _ := double_return(2, 3) //Podemos usar _ si no necesitamos ese valor (Recordar que go exige usar todas las variables declaradas)
 	fmt.Printf("Valor 1 = %v. Valor 2 = %v\n", value1, value2)
+
+	//Ciclos:
+	fmt.Println("CICLOS:")
+	fmt.Println("FOR CONDICIONAL")
+	//for condicional:
+	for i := 0; i <= 10; i++ {
+		fmt.Println(i)
+	}
+
+	//for while:
+	fmt.Println("FOR WHILE")
+	counter := 0
+	for counter < 10 {
+		fmt.Println(counter)
+		counter++
+	}
+
+	//For forever
+	/*
+		fmt.Println("FOR FOREVER")
+		counter_forever := 0
+		for {
+			fmt.Println(counter_forever)
+			counter_forever++
+		}*/
 }
